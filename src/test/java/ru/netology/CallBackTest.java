@@ -25,7 +25,6 @@ public class CallBackTest {
     }
 
     //todo bug
-    @Ignore
     @Test
     public void shouldValidNameTestOne() {
         form.$("[data-test-id=name] input").setValue("Ёжикова Алёна");
@@ -67,7 +66,6 @@ public class CallBackTest {
     }
 
     //todo bug
-    @Ignore
     @Test
     public void shouldInvalidNameTestTwo() {
         form.$("[data-test-id=name] input").setValue("Андрей");
